@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
-import { MapPin, User, LogOut } from 'lucide-react';
+import { MapPin,LogOut } from 'lucide-react';
 
 interface MyToken {
   name: string;
